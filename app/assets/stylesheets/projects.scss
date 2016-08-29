@@ -1,0 +1,51 @@
+// Place all the styles related to the projects controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+html{
+  
+}
+
+body {
+      font-family: 'Indie Flower', cursive;
+      color: white;
+      margin: 0 auto;
+      background: image-url("east_rock.jpg") no-repeat center center fixed; 
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      .opener-row{
+      }
+      #opener{
+        margin-top: 60vh;
+        background-color: rgba(100,100,100,.6);
+        h1{
+          font-size: 36px;
+        }
+        h2{
+          font-size: 30px;
+        }
+      }
+      .arrow-box{
+        margin-top: 20px;
+        .sub-arrow-box{
+          display: block;
+          margin: auto;
+          width: 120px;
+          #arrow{
+            display: inline-block;
+            height: 30px;
+          }
+        }
+      }
+      #hat-pictures{
+        margin-top: 20vh;
+        .hat-picture{
+          border: 2px solid white;
+          margin-bottom: 5px;
+          border-radius: 25px;
+        }
+      } 
+    } 

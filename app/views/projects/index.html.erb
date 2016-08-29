@@ -1,0 +1,57 @@
+<div class="row">
+  <div class="col-xs-12" id="opener">
+    <h1>Hi, I'm Alex Lach.</h1>
+    <h2>I am a New Haven-based web developer. <br>I wear many hats.</h2>
+  </div>
+</div>
+<div class="row">
+  <div class="col-xs-4 col-xs-offset-4 arrow-box">
+    <div class="sub-arrow-box">
+      <img src='assets/arrow.png' id='arrow'></img>
+      <img src='assets/arrow.png' id='arrow'></img>
+      <img src='assets/arrow.png' id='arrow'></img>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-xs-12" id="hat-pictures">
+    <div class="row">
+      <div class="col-xs-12 col-sm-4">
+        <div class="row">
+          <div class="col-xs-10 col-xs-offset-1" id="hat1">
+            <%= image_tag "hat-1.jpg", class:"img-responsive hat-picture" %>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-4">
+        <div class="row">
+          <div class="col-xs-10 col-xs-offset-1" id="hat2">
+            <%= image_tag "hat-2.jpg", class:"img-responsive hat-picture" %>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-4">
+        <div class="row">
+          <div class="col-xs-10 col-xs-offset-1" id="hat3">
+            <%= image_tag "hat-3.jpg", class:"img-responsive hat-picture" %>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  <script>
+
+  $(window).scroll(function() {
+
+          if ($(this).scrollTop()>0)
+           {
+              $('.arrow-box').fadeOut();
+           }
+          else
+           {
+            $('.arrow-box').fadeIn();
+           }
+       });
+  </script>

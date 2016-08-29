@@ -1,4 +1,4 @@
-<div class="row">
+<div class="row" id="opener-row">
   <div class="col-xs-12" id="opener">
     <h1>Hi, I'm Alex Lach.</h1>
     <h2>I am a New Haven-based web developer. <br>I wear many hats.</h2>
@@ -43,6 +43,63 @@
     </div>
   </div>
 </div>
+
+<div class="row">
+  <div class="col-xs-12" id="get-in-touch">
+    <h2>Get In Touch:</h2>
+    <div class="row">
+      <div class="col-xs-2 col-xs-offset-1">
+        <div class="row">
+          <div class="col-xs-12">
+            <%= link_to "https://github.com/alexglach" do %>
+              <%= image_tag "GitHub-Mark-120px-plus.png", class:"img-responsive" %>
+            <% end %>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-2">
+        <div class="row">
+          <div class="col-xs-12">
+            <%= link_to "https://medium.com/@alexglach" do %>
+              <%= image_tag "medium-m-color-688.png", class:"img-responsive" %>
+            <% end %>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-2">
+        <div class="row">
+          <div class="col-xs-12">
+            <%= link_to "https://twitter.com/alexglach" do %>
+              <%= image_tag "tw.png", class:"img-responsive" %>
+            <% end %>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-2">
+        <div class="row">
+          <div class="col-xs-12">
+            <%= link_to "https://www.linkedin.com/in/alex-lach-28921236" do %>
+              <%= image_tag "linkedin-icon-white.png", class:"img-responsive" %>
+            <% end %>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-2">
+        <div class="row">
+          <div class="col-xs-12">
+            <%= link_to "mailto:alexglach@gmail.com" do %>
+              <%= image_tag "email.png", class:"img-responsive" %>
+            <% end %>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
 <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
   <script>
   $('#hat1').on('click', function() {

@@ -16,24 +16,27 @@
 <div class="row">
   <div class="col-xs-12" id="hat-pictures">
     <div class="row">
-      <div class="col-xs-12 col-sm-4">
+      <div class="col-xs-12 col-md-4">
         <div class="row">
           <div class="col-xs-10 col-xs-offset-1" id="hat1">
             <%= image_tag "hat-1.jpg", class:"img-responsive hat-picture" %>
+            <p>Work <br /><small> In my previous life, I was a political consultant. I worked with grassroots organizations across Massachusetts to do cool things, like raise the minimum wage and improve our public transportation system. </small></p>
           </div>
         </div>
       </div>
-      <div class="col-xs-12 col-sm-4">
+      <div class="col-xs-12 col-md-4">
         <div class="row">
           <div class="col-xs-10 col-xs-offset-1" id="hat2">
             <%= image_tag "hat-2.jpg", class:"img-responsive hat-picture" %>
+            <p> Learn <br /><small>I recently changed careers to become a full-time web developer, and I haven't looked back. I love to create, build, and tinker, and am seeking opportunities to make the world better with code.</small></p>
           </div>
         </div>
       </div>
-      <div class="col-xs-12 col-sm-4">
+      <div class="col-xs-12 col-md-4">
         <div class="row">
           <div class="col-xs-10 col-xs-offset-1" id="hat3">
             <%= image_tag "hat-3.jpg", class:"img-responsive hat-picture" %>
+            <p> Play <br /><small>In my free time, I love to move. I try to lift heavy things at Commonwealth CrossFit, play soccer and basketball on the weekends, and hike in New Hampshire and Maine during the summer.</small></p>
           </div>
         </div>
       </div>
@@ -42,7 +45,15 @@
 </div>
 <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
   <script>
-
+  $('#hat1').on('click', function() {
+      $(this).toggleClass('show-description');
+  });
+  $('#hat2').on('click', function() {
+      $(this).toggleClass('show-description');
+  });
+  $('#hat3').on('click', function() {
+      $(this).toggleClass('show-description');
+  });
   $(window).scroll(function() {
 
           if ($(this).scrollTop()>0)

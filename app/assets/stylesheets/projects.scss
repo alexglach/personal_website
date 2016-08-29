@@ -18,6 +18,41 @@ body {
       background-size: cover;
       .opener-row{
       }
+      p{
+            font-size: 30px;
+            color: rgba(255,255,255,1);
+            background: black;
+            background: linear-gradient(bottom, rgba(100,100,100,1), rgba(100,100,100,.4));
+            background: -webkit-linear-gradient(bottom, rgba(100,100,100, 1), rgba(100,100,100,.4));
+            background: -moz-linear-gradient(bottom, rgba(100,100,100,1), rgba(100,100,100,.4));
+            line-height: 28px;
+            position: absolute;
+            padding: 10px;
+            bottom: 2%;
+            border: 2px solid white;
+            border-top: 0;
+            margin: 0 auto;
+            height: 18.5%;
+            transition: height .3s;
+            -webkit-transition: height .3s;
+            -moz-transition: height .3s;
+            border-bottom-right-radius: 25px;
+            border-bottom-left-radius: 25px;
+            max-width: 300px;
+  
+            width: 90.5%;
+          }
+          small {
+            opacity: 0;
+          }
+          .show-description p {
+            height: 250px;
+          }
+
+          .show-description small {
+            opacity: 1;
+            font-size: 18px;
+          }
       #opener{
         margin-top: 60vh;
         background-color: rgba(100,100,100,.6);
@@ -43,9 +78,14 @@ body {
       #hat-pictures{
         margin-top: 20vh;
         .hat-picture{
+          margin: 0 auto;
           border: 2px solid white;
           margin-bottom: 5px;
           border-radius: 25px;
+        }
+        #hat1{
+
+
         }
       } 
     } 

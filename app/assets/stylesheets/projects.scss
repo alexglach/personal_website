@@ -134,6 +134,7 @@
     }
     #project-image-container{
       height: 150px;
+      margin-bottom: 2vh;
 
       #project-picture{
         height: 100%;
@@ -152,6 +153,15 @@
       display: block;
       margin: 0 auto;
       font-size: 14px;
+    }
+    #code-button{
+      color: white;
+      background-color: rgb(100,100,100);
+    }
+
+    #demo-button{
+      color: white;
+      background-color: #6699ff;
     }
   }
 

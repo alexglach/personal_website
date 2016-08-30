@@ -1,195 +1,200 @@
 // Place all the styles related to the projects controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-   @media (max-width: 770px) {
+  
+
+  
+
+  body {
+    font-family: 'Comfortaa', sans-serif;
+    color: #F8F8F8;
+    margin: 0 auto;
+    background: image-url("east_rock.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+   
+    #my-nav{
+      background-color: #F8F8F8;
+      color: white;
+      a{
+        font-size: 20px;
+        color: rgb(100,100,100);
+      }
+
+      .navbar-brand{
+        color: rgb(100,100,100);   
+        font-size: 30px;
+      }
+    }
+
+    #opener{
+      
+      h1{
+        font-size: 48px;
+      }
+      h2{
+        font-size: 34px;
+      }
+    }
+ 
+    #opener-row{
+      margin-top: 50vh;
+      background-color: rgba(100,100,100,.4);
+    }
+    .arrow-box{
+      margin-top: 20px;
+      .sub-arrow-box{
+        display: block;
+        margin: auto;
+        width: 120px;
+        #arrow{
+          display: inline-block;
+          height: 30px;
+        }
+      }
+    }
+    #hat-pictures{
+       p{
+      font-size: 30px;
+      text-align: center;
+      color: #F8F8F8;
+      background: black;
+      background: linear-gradient(bottom, rgba(100,100,100,1), rgba(100,100,100,.4));
+      background: -webkit-linear-gradient(bottom, rgba(100,100,100, 1), rgba(100,100,100,.4));
+      background: -moz-linear-gradient(bottom, rgba(100,100,100,1), rgba(100,100,100,.4));
+      line-height: 20px;
+      position: absolute;
+      bottom: 2.75%;
+      border-top: 0;
+      padding: 1vh;
+      padding-top: 3vh;
+      margin: 0 auto;
+      margin-left: 1.5%;
+      height: 18.5%;
+      transition: height .3s;
+      -webkit-transition: height .3s;
+      -moz-transition: height .3s;
+      border-bottom-right-radius: 23px;
+      border-bottom-left-radius: 23px;
+      width: 88%;
+      max-width: 292px;
+    }
+    small {
+      opacity: 0;
+    }
+    .show-description p {
+      height: 250px;
+    }
+
+    .show-description small {
+      opacity: 1;
+      font-size: 15px;
+    }
+      margin-top: 15vh;
+      padding-top: 100px;
+      .hat-picture{
+        margin: 0 auto;
+        border: 4px solid #F8F8F8;
+        margin-bottom: 5px;
+        border-radius: 25px;
+        width: 100%;
+        max-width: 300px;
+      }
+    
+      
+    }
+
+    #project-row{
+      height: 5vh;
+    }
+
+    #project-row-real{
+      background-color: #F8F8F8;
+      margin-top: 10vh;
+      h2{
+        color: rgb(100,100,100);
+        text-align: center;
+      }
+    }
+
+    #project{
+      border-radius: 5px;
+      margin-bottom: 2vh;
+      border: 1px solid rgb(100,100,100);
+      color: rgb(100,100,100);
+      padding-bottom: 2vh;
+      h3{
+        text-align: center;
+      }
+      #project-image-container{
+        height: 150px;
+        margin-bottom: 2vh;
+
+        #project-picture{
+          height: 100%;
+          width: auto;
+          max-width: 100%;
+          margin: 0 auto;
+          display: block;   
+          border: 1px solid rgb(100,100,100); 
+          border-radius: 5px; 
+        }
+      }
+      p{
+         font-size: 18px;
+      }
+      .btn{
+        display: block;
+        margin: 0 auto;
+        font-size: 14px;
+      }
+      #code-button{
+        color: white;
+        background-color: rgb(100,100,100);
+      }
+
+      #demo-button{
+        color: white;
+        background-color: #6699ff;
+      }
+    }
+
+    #get-in-touch{
+      background-color: rgba(100,100,100,.4);
+      text-align: center;
+      margin-top: 15vh;
+      height: min-content;
+      margin-bottom: 10vh;
+      padding-bottom: 3vh;
+      img {
+        max-height: 150px;
+        margin: auto;
+        vertical-align: middle;
+      }
+
+    }
+  } 
+
+  @media screen and (max-width: 767px) {
+
+    body{
       #opener-row{
         margin-top: 20vh;
       }
 
       #opener{
         h1{
-          font-size: 30px;
+          font-size: 36px;
         }
         h2{
-          font-size: 20px;
+          font-size: 24px;
         }
       }
     }
-
-  #my-nav{
-    background-color: #F8F8F8;
-    color: white;
-    a{
-      font-size: 20px;
-      color: rgb(100,100,100);
-    }
-
-      
-  
-  
-
-    .navbar-brand{
-      color: rgb(100,100,100);   
-      font-size: 30px;
-    }
-  }
-
-  body {
-  font-family: 'Comfortaa', sans-serif;
-  color: #F8F8F8;
-  margin: 0 auto;
-  background: image-url("east_rock.jpg") no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  .opener-row{
-  }
- 
-  #opener{
     
-    h1{
-      font-size: 48px;
-    }
-    h2{
-      font-size: 34px;
-    }
-  }
- 
-  #opener-row{
-    margin-top: 50vh;
-    background-color: rgba(100,100,100,.4);
-  }
-  .arrow-box{
-    margin-top: 20px;
-    .sub-arrow-box{
-      display: block;
-      margin: auto;
-      width: 120px;
-      #arrow{
-        display: inline-block;
-        height: 30px;
-      }
-    }
-  }
-  #hat-pictures{
-     p{
-    font-size: 30px;
-    text-align: center;
-    color: #F8F8F8;
-    background: black;
-    background: linear-gradient(bottom, rgba(100,100,100,1), rgba(100,100,100,.4));
-    background: -webkit-linear-gradient(bottom, rgba(100,100,100, 1), rgba(100,100,100,.4));
-    background: -moz-linear-gradient(bottom, rgba(100,100,100,1), rgba(100,100,100,.4));
-    line-height: 20px;
-    position: absolute;
-    bottom: 2.75%;
-    border-top: 0;
-    padding: 1vh;
-    padding-top: 3vh;
-    margin: 0 auto;
-    margin-left: 1.5%;
-    height: 18.5%;
-    transition: height .3s;
-    -webkit-transition: height .3s;
-    -moz-transition: height .3s;
-    border-bottom-right-radius: 23px;
-    border-bottom-left-radius: 23px;
-    width: 88%;
-    max-width: 292px;
-  }
-  small {
-    opacity: 0;
-  }
-  .show-description p {
-    height: 250px;
+
   }
 
-  .show-description small {
-    opacity: 1;
-    font-size: 15px;
-  }
-    margin-top: 15vh;
-    padding-top: 100px;
-    .hat-picture{
-      margin: 0 auto;
-      border: 4px solid #F8F8F8;
-      margin-bottom: 5px;
-      border-radius: 25px;
-      width: 100%;
-      max-width: 300px;
-    }
-  
-    
-  }
 
-  #project-row{
-    height: 5vh;
-  }
-
-  #project-row-real{
-    background-color: #F8F8F8;
-    margin-top: 10vh;
-    h2{
-      color: rgb(100,100,100);
-      text-align: center;
-    }
-  }
-
-  #project{
-    border-radius: 5px;
-    margin-bottom: 2vh;
-    border: 1px solid rgb(100,100,100);
-    color: rgb(100,100,100);
-    padding-bottom: 2vh;
-    h3{
-      text-align: center;
-    }
-    #project-image-container{
-      height: 150px;
-      margin-bottom: 2vh;
-
-      #project-picture{
-        height: 100%;
-        width: auto;
-        max-width: 100%;
-        margin: 0 auto;
-        display: block;   
-        border: 1px solid rgb(100,100,100); 
-        border-radius: 5px; 
-      }
-    }
-    p{
-       font-size: 18px;
-    }
-    .btn{
-      display: block;
-      margin: 0 auto;
-      font-size: 14px;
-    }
-    #code-button{
-      color: white;
-      background-color: rgb(100,100,100);
-    }
-
-    #demo-button{
-      color: white;
-      background-color: #6699ff;
-    }
-  }
-
-  #get-in-touch{
-    background-color: rgba(100,100,100,.4);
-    text-align: center;
-    margin-top: 15vh;
-    height: min-content;
-    margin-bottom: 10vh;
-    padding-bottom: 3vh;
-    img {
-      max-height: 150px;
-      margin: auto;
-      vertical-align: middle;
-    }
-
-  } 
-} 

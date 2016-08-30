@@ -1,8 +1,16 @@
 // Place all the styles related to the projects controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+  .navbar-custom .navbar-fixed-top{
+    background-color: rgba(100,100,100, .9);
+    color: white;    
+  }
 
-body {
+   .navbar-brand{
+      font-size: 30px;
+    }
+
+  body {
   font-family: 'Indie Flower', cursive;
   color: white;
   margin: 0 auto;
@@ -33,6 +41,7 @@ body {
     border-bottom-right-radius: 23px;
     border-bottom-left-radius: 23px;
     width: 88%;
+    max-width: 292px;
   }
   small {
     opacity: 0;
@@ -46,14 +55,17 @@ body {
     font-size: 18px;
   }
   #opener{
-    margin-top: 60vh;
-    background-color: rgba(100,100,100,.4);
+    
     h1{
-      font-size: 36px;
+      font-size: 48px;
     }
     h2{
-      font-size: 30px;
+      font-size: 34px;
     }
+  }
+  #opener-row{
+    margin-top: 60vh;
+    background-color: rgba(100,100,100,.4);
   }
   .arrow-box{
     margin-top: 20px;
@@ -75,6 +87,7 @@ body {
       margin-bottom: 5px;
       border-radius: 25px;
       width: 100%;
+      max-width: 300px;
     }
   
     

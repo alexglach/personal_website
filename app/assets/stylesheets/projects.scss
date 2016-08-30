@@ -15,10 +15,10 @@
     background-repeat: no-repeat;
     background-position: 50% 0;
     background-attachment: fixed; 
+    background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
    
     #my-nav{
       background-color: #F8F8F8;
@@ -219,7 +219,8 @@
   @media screen and (max-width: 767px) {
 
     body{
-
+      background-image: scroll;
+      
       #opener-row{
         margin-top: 34vh;
       }

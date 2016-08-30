@@ -11,7 +11,10 @@
     font-family: 'Comfortaa', sans-serif;
     color: #F8F8F8;
     margin: 0 auto;
-    background: image-url("east_rock.jpg") no-repeat center center fixed; 
+    background: image-url("east_rock.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;

@@ -219,7 +219,14 @@
   @media screen and (max-width: 767px) {
 
     body{
-      background-image: scroll;
+      background: image-url("east_rock_mobile.jpg");
+      background-repeat: no-repeat;
+      background-position: 50% 0;
+      background-attachment: fixed; 
+      background-size: cover;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
       
       #opener-row{
         margin-top: 34vh;

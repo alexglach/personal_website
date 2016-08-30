@@ -1,10 +1,15 @@
 <body>
-  <nav class="navbar navbar-custom navbar-fixed-top" id="my-nav">
+  <nav class="navbar navbar-custom navbar-default navbar-fixed-top" id="my-nav">
     <div class="container-fluid">
       <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" aria-expanded="false" id="dropdown-button">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
         <a class="navbar-brand" href="/">Alex Lach</a>
       </div>
-      <div class="collapse navbar-collapse">
+      <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav navbar-right">
           <li><a href="#hat-pictures">About Me <span class="sr-only">(current)</span></a></li>
           <li><a href="#project-row">Projects</a></li>
@@ -207,4 +212,7 @@
             $('.arrow-box').fadeIn();
            }
        });
+  $("#dropdown-button").click(function() {
+    $("#my-nav" ).toggleClass( "open");
+  });
   </script>

@@ -13,7 +13,7 @@
     margin: 0 auto;
     background: image-url("east_rock_small.jpg");
     background-repeat: no-repeat;
-    background-position: 50% 0;
+    background-position: center center;
     background-attachment: fixed; 
     background-size: cover;
     -webkit-background-size: cover;
@@ -220,7 +220,7 @@
 
     body{
       
-
+      background-attachment: scroll;
       
       #opener-row{
         margin-top: 34vh;
